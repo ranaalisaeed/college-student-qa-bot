@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "dotenv>=0.9.9",
+    "python-dotenv",
     "gradio>=4.44.1",
     "langchain-chroma>=0.2.2",
     "langchain-openai>=0.3.7",
