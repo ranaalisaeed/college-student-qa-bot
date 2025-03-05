@@ -9,5 +9,6 @@ sdk_version: 5.20.0
 Command to copy project file content:
 
 ```bash
-find . -type f ! -path "*/.*" ! -name "*.lock" ! -name "*.md" -exec echo "{}" \; -exec cat {} \; | pbcopy
+find . -type f ! -path "*/.*" ! -name "*.lock" ! -name "*.md" ! -path "*/acap-db/*" \
+-exec echo "{}" \; -exec cat {} \; | pbcopy
 ```
