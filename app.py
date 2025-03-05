@@ -57,6 +57,7 @@ interface = gr.Interface(
     outputs="text",
     title="ACAP Student QA Bot",
     description="A Retrieval-Augmented Generation bot ACAP student resources. Ask your questions about college student resources and get answers!",
+    flagging_mode="manual",
 )
 
 if __name__ == "__main__":
